@@ -9,6 +9,7 @@ var LocalStrategy = require('passport-local').Strategy;
 
 var indexRouter = require('./routes/index');
 var authRouter = require('./routes/auth');
+var voteRouter = require('./routes/votes');
 
 var app = express();
 
@@ -31,6 +32,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
 app.use('/auth', authRouter);
+app.use('/votes', voteRouter);
 
 // passport config
 var Account = require('./models/account');
