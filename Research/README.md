@@ -28,6 +28,14 @@ Open-source Projekt von Microsoft.
 Google-Suche ist relativ ergiebig. Könnte auch aus technischer
 Sicht interessant sein, da es wahrscheinlich sauber programmiert ist.
 
+## [Epitome](https://democracy.foundation/epitome/)
+
+Hat große Ähnlichkeit mit dem zu erreichenden Ziel.
+[Github-Seite](https://github.com/TheDemocracyFoundation/epitome).
+
+Bietet weiterführende Links zu ähnlichen
+[Projekten](https://democracy.foundation/similar-projects/).
+
 ## [Vote Watcher](http://votewatcher.com/)
 
 Blockchain-basiert. Repository nicht auffindbar (?!).
@@ -47,6 +55,13 @@ Eine Google-Suche lässt vermuten, dass Helios
 im akademischen Bereich entwickelt wurde!
 Das [Paper](https://www.usenix.org/legacy/events/sec08/tech/full_papers/adida/adida.pdf)
 zu Helios wurde über 600 mal zitiert.
+
+## [Belenios](http://www.belenios.org/)
+
+Aus dem akademischen Bereich.
+[Github-Seite](https://github.com/glondu/belenios).
+
+Kommandozeilentool!
 
 ## [Votosocial](http://votosocial.github.io/)
 
