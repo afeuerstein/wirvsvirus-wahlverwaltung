@@ -1,9 +1,17 @@
 # How to run
-NodeJS installieren (https://nodejs.org/en/).
-MongoDB installieren und starten (https://www.mongodb.com/de).
 
-Dependencies installieren: `npm install`
+## Prerequisits
 
-Ausführen: `npm start`
+- [NodeJS](https://nodejs.org/en/).
+- [MongoDB](https://www.mongodb.com/de)
 
-http://localhost:3000 aufrufen.
+For macOS, we recommend using homebrew.
+Use your favorite search engine to find out how to install
+the above packages with brew!
+
+## Install and run
+
+1. User your terminal to navigate into this directory
+2. `npm install`
+3. `npm start`
+4. http://localhost:3000
