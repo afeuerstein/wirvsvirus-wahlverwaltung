@@ -35,8 +35,18 @@ selbst (s. Titel).
 
 Eine Google-Suche lässt vermuten, dass Helios
 im akademischen Bereich entwickelt wurde!
-Das [Paper](https://www.usenix.org/legacy/events/sec08/tech/full_papers/adida/adida.pdf) 
+Das [Paper](https://www.usenix.org/legacy/events/sec08/tech/full_papers/adida/adida.pdf)
 zu Helios wurde über 600 mal zitiert.
+
+## [We vote](https://wevote.us/welcome)
+
+[Github-Seite](https://github.com/wevote)
+
+Es gibt mehrere Projekte, die "We vote" heißen.
+Das hier verlinkte Projekt scheint das Größte zu sein.
+Ein beispielhafte Nutzung ist
+[hier](https://wevote.us/how/for-voters)
+zu finden.
 
 ## [Trust the vote](https://trustthevote.org/)
 
