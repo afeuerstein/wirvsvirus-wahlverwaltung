@@ -20,6 +20,14 @@ findet, u.A. an folgenden Orten:
 Die auf Github verlinkten Seiten
 funktionieren leider immer wieder nicht!
 
+## [Election guard](https://blogs.microsoft.com/on-the-issues/2019/09/24/electionguard-available-today-to-enable-secure-verifiable-voting/)
+
+Open-source Projekt von Microsoft.
+[Github-Seite](https://github.com/microsoft/electionguard).
+
+Google-Suche ist relativ ergiebig. Könnte auch aus technischer
+Sicht interessant sein, da es wahrscheinlich sauber programmiert ist.
+
 ## [Vote Watcher](http://votewatcher.com/)
 
 Blockchain-basiert. Repository nicht auffindbar (?!).
@@ -39,6 +47,14 @@ Eine Google-Suche lässt vermuten, dass Helios
 im akademischen Bereich entwickelt wurde!
 Das [Paper](https://www.usenix.org/legacy/events/sec08/tech/full_papers/adida/adida.pdf)
 zu Helios wurde über 600 mal zitiert.
+
+## [Votosocial](http://votosocial.github.io/)
+
+Blockchain-basiert, [Github-Seite](https://github.com/votosocial).
+
+Entwicklung ruht scheinbar seit Ende 2017.
+Es geht vorallem um die Validierung geheimer Wahlen,
+siehe [Link](https://www.innovatorsunder35.com/the-list/jorge-garcia/).
 
 ## [We vote](https://wevote.us/welcome)
 
