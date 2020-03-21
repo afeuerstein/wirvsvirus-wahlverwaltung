@@ -18,6 +18,14 @@ findet, u.A. an folgenden Orten:
 Die auf Github verlinkten Seiten
 funktionieren leider immer wieder nicht!
 
+## [Vote Watcher](http://votewatcher.com/)
+
+Blockchain-basiert. Repository nicht auffindbar (?!).
+
+Mehrere [Artikel](http://votewatcher.com/#press)
+in der Blockchain-Szene, ein Artikel auf
+[Vice](https://www.vice.com/en_us/article/3da8e5/the-first-bitcoin-voting-machine-is-on-its-way).
+
 ## [Helios](https://heliosvoting.org/)
 
 Das README auf der
@@ -33,3 +41,10 @@ zu Helios wurde über 600 mal zitiert.
 ## [Trust the vote](https://trustthevote.org/)
 
 Non-profit Organisation, [Github-Seite](https://github.com/TrustTheVote-Project)
+
+## [Follow my vote](https://followmyvote.com/)
+
+Blockchain-basiert, [Github-Seite](https://github.com/FollowMyVote).
+
+Google-Suche ergibt keine
+nennenswerten weitergehenden Informationen.
