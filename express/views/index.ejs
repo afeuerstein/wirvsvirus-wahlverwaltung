@@ -6,6 +6,13 @@
   </head>
   <body>
     <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
+    <a href="/auth/login">Login</a>
+    <a href="/auth/register">Registrerung</a>
+    <h3>Status</h3>
+    <%if (user) {%>
+      <p>Angemeldet</p>
+    <%} else {%> 
+      <p>Nicht angemeldet</p>
+    <%}%>
   </body>
 </html>
