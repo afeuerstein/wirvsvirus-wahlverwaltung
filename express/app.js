@@ -36,14 +36,42 @@ app.use('/auth', authRouter);
 app.use('/votes', voteRouter);
 app.use('/admin', adminRouter);
 
+const Account = require("./models/account");
+let query = Account.find({ admin: true});
+var token;
+query.exec(function (err, results) {
+    if (!results[0]) {
+      require('crypto').randomBytes(48, function(err, buffer) {
+        token = buffer.toString('hex');
+        console.log("NO ADMIN ACCOUNT FOUND! USE THIS LINK TO CONVERT A EXISTING ACCOUNT INTO AN ADMIN ACCOUNT, DO NOT SHARE THE LINK WITH OTHERS: http://localhost:3000/convert2admin?token=" + token);
+      });
+    }
+}); 
+
+
+app.get("/convert2admin", (req, res, next) => {
+  if (token) {
+    if (req.query.token === token) {
+      if (!req.user) { res.redirect("/auth/login")}
+      let query = Account.findOne({ username: req.user.username});
+      query.exec(function (err, results) {
+        results.admin = true;
+        results.save();
+        res.render("success");
+      });
+    }
+  } else {
+    res.sendStatus(404);
+  }
+});
+
 // passport config
-var Account = require('./models/account');
 passport.use(new LocalStrategy(Account.authenticate()));
 passport.serializeUser(Account.serializeUser());
 passport.deserializeUser(Account.deserializeUser());
 
 // mongoose
-mongoose.connect('mongodb://localhost/wahlverwaltung', {useMongoClient: true});
+mongoose.connect('mongodb://localhost/wahlverwaltung', { useNewUrlParser: true, useUnifiedTopology: true });
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
@@ -55,7 +83,7 @@ app.use(function(err, req, res, next) {
   // set locals, only providing error in development
   res.locals.message = err.message;
   res.locals.error = req.app.get('env') === 'development' ? err : {};
-
+  
   // render the error page
   res.status(err.status || 500);
   res.render('error');
