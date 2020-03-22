@@ -5,6 +5,8 @@ Aus praktischen Gründen ist dieses Dokument vorerst auf deutsch.
 
 Die interessantestesten (diskutierbar!) Projekte stehen am Anfang.
 
+Siehe auch: [Messengers.md](./Messengers.md)
+
 ## [Democracy OS](http://democracyos.org/)
 
 Größeres Projekt, welches laut
