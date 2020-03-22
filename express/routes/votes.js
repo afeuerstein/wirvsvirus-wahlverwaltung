@@ -22,8 +22,13 @@ router.get('/', function (req, res, next) {
 
 //TODO
 router.get('/details/:id', function (req, res, next) {
-    res.redirect("/votes")
-
+    let query = VoteModel.find({});
+    query.exec(function (err, results) {
+        res.render('votelist', {
+            vote: results,
+            title: "",
+        });
+    });
 });
 
 //TODO
