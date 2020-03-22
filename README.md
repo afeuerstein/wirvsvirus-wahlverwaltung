@@ -16,14 +16,9 @@ Natürlich können wir nach einem Wochenende keine vollständige Lösung präsen
 
 This repo contains multiple subprojects, check out the directories!
 
-## [express](./express)
-
+- [express](./express):
 Prototype using [passbase](https://passbase.com/) for user verification.
-
-## [ethereum-contracts](./ethereum-contracts)
-
+- [ethereum-contracts](./ethereum-contracts):
 Prototype based on [ethereum](./Research/dezentrale_Abstimmungssysteme.md).
-
-## [Research](./Research)
-
+- [Research](./Research):
 Research from a legal and technical point of view.
