@@ -31,11 +31,6 @@ app.use(passport.initialize());
 app.use(passport.session());
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use('/', indexRouter);
-app.use('/auth', authRouter);
-app.use('/votes', voteRouter);
-app.use('/admin', adminRouter);
-
 const Account = require("./models/account");
 let query = Account.find({ admin: true});
 var token;
@@ -64,6 +59,11 @@ app.get("/convert2admin", (req, res, next) => {
     res.sendStatus(404);
   }
 });
+
+app.use('/', indexRouter);
+app.use('/auth', authRouter);
+app.use('/votes', voteRouter);
+app.use('/admin', adminRouter);
 
 // passport config
 passport.use(new LocalStrategy(Account.authenticate()));

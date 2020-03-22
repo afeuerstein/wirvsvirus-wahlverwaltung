@@ -3,6 +3,14 @@ var router = express.Router();
 const Account = require("../models/account");
 const VoteModel = require('../models/vote');
 
+router.use((req, res, next) => {
+    if (req.user) {
+        if (req.user.admin) next();
+    } else {
+        res.redirect('/auth/login');
+    }
+});
+
 router.get('/votes/add', function (req, res, next) {
     res.render('voteadd');
 });

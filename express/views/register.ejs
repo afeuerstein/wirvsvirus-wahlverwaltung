@@ -48,6 +48,7 @@
                             </div>
                         </div>
                     </div>
+                    <div id="passbase-button"></div>
                     <!--div class="input-group mb-3">
                         <input type="password" class="form-control" name="password-retype" placeholder="Passwort bestätigen">
                         <div class="input-group-append">
@@ -69,7 +70,7 @@
             </div>
             </form>
             <%} else {%>
-                <p class="login-box-msg">Sie sind schon angemeldet.</p>
+            <p class="login-box-msg">Sie sind schon angemeldet.</p>
             <%}%>
             <div class="text-center">
                 <a href="/" class="text-center">Zurück zur Homepage.</a>
@@ -86,7 +87,14 @@
     <script src="../../plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
     <!-- AdminLTE App -->
     <script src="../../dist/js/adminlte.min.js"></script>
+    <script src="https://app.passbase.com/button.js"></script>
+    <script type="text/javascript">
+        const element = document.getElementById("passbase-button")
+        const apiKey = "a7bb56e63b2653b4c1bde90f3d488ff7bd9daa509d1ce6d8cd8a2bb956b48ea2"
+        const onFinished = (error, authKey, additionalAttributes) => { }
 
+        Passbase.renderButton(element, onFinished, apiKey)        
+    </script>
 </body>
 
 </html>
