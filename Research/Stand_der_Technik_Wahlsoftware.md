@@ -19,6 +19,10 @@ findet, u.A. an folgenden Orten:
 Die auf Github verlinkten Seiten
 funktionieren leider immer wieder nicht!
 
+Drei Leute in unserem Team haben versucht, einen DemocracyOS Server auf dem eigenen PC
+zum laufen zu kriegen, was jeweils nicht funktioniert hat.
+Fredi hat eine E-mail an Developer von DemocracyOS geschrieben (aktueller Stand: keine Antwort).
+
 ## [Election guard](https://blogs.microsoft.com/on-the-issues/2019/09/24/electionguard-available-today-to-enable-secure-verifiable-voting/)
 
 Open-source Projekt von Microsoft.
