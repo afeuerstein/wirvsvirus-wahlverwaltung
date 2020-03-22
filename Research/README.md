@@ -5,7 +5,10 @@ Aus praktischen Gründen ist dieses Dokument vorerst auf deutsch.
 
 Die interessantestesten (diskutierbar!) Projekte stehen am Anfang.
 
-Siehe auch: [Messengers.md](./Messengers.md)
+Siehe auch:
+
+- [legal_bases_germany.md](./legal_bases_germany.md)
+- [Messengers.md](./Messengers.md)
 
 ## [Democracy OS](http://democracyos.org/)
 
